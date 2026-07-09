@@ -60,7 +60,9 @@ body {
         border-radius: 50%;
     }
     a {
-       display: block;
+       display: flex;
+       justify-content: center;
+       align-items: center;
        background-color:#ffffff;
        color: #000000;
        padding: 16px;
