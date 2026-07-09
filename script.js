@@ -8,7 +8,7 @@ function updateStatusToko (){
 
     const waktuSekarangDalamMenit= (jam * 60)+ menit;
     const waktuBukaDalamMenit= (8*60)+0;
-    const waktuTutupDalamMenit= (16*60)+30;
+    const waktuTutupDalamMenit= (20*60)+30;
 
     if (waktuSekarangDalamMenit >= waktuBukaDalamMenit && waktuSekarangDalamMenit < waktuTutupDalamMenit){
         teksStatus.textContent ='Yuk, Order sekarang!';
